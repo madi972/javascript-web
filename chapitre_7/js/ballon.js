@@ -9,7 +9,7 @@ var vitesse = 7; // Valeur du déplacement en pixels
 var diametreBallon = parseFloat(getComputedStyle(ballon).width);
 var animationId = null; // Identifiant de l'animation
 var xMin = 0; // Position gauche minimale (bord gauche)
-var direction = 1; // Sens de déplacement : 1 = droit, 2 = gauche
+var direction = 1; // Sens de déplacement : 1 = droit, -1 = gauche
 
 // Déplace le ballon vers la gauche ou la droite
 function animerBallon() {
